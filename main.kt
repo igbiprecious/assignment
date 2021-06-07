@@ -12,6 +12,24 @@ fun main() {
     var name: String = "Precious"
     var numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
 
+    sayHello1()
+    printAge1()
+    addition1()
+    subtraction1()
+    isRaining1()
+
+    println(sayHello2())
+    println(printAge2())
+    println(addition2())
+    println(subtraction2())
+    println(isRaining2())
+
+    println(sayHello3("Precious"))
+    println(printAge3(54))
+    println(addition3(5, 2))
+    println(subtraction3(10, 7))
+    println(isRaining3(true))
+
 }
 //    3)	5 Function with no return value
 
